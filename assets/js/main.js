@@ -67,8 +67,4 @@ for ( counter=0; counter<=100; counter++ ) {
       <div id="text" class="p-3">${text}</div>
     </div>
   `;
-}
-
-if (text == "Buzz"){
-  document.getElementById("text").innerHTML = `style="background-color: yellow;"`
 }*/
