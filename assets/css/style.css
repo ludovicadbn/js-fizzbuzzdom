@@ -8,9 +8,14 @@ h1{color: #fff; text-align: center; font-size: 3em; margin: 0.5em 0;}
 .jc-center{justify-content: center;}
 .ai-center{align-items: center;}
 
-#square{width: 65px; height: 65px; background-color: #1389b2; font-size: 0.8rem;}
+.square{width: 65px; height: 65px; font-size: 0.8rem;}
 
 .container{max-width: 45%; margin: 0 auto;}
 .col{max-width: calc(100% / 7); flex-basis: calc(100% / 7); margin-bottom: 1em;}
 
 #fbd{display: flex; flex-wrap: wrap;}
+
+#yellow{background-color: #ffd166;}
+#blue{background-color: #1389b2;}
+#green{background-color: #0bd6a1;}
+#red{background-color: #f0466f;}

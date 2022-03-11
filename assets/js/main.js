@@ -3,17 +3,31 @@ for ( counter=1; counter<=100; counter++ ) {
 
   if (counter % 15 == 0) {
     text += "FizzBuzz";
-  } else if (counter % 3 == 0) {
-    text += "Fizz";
-  } else if (counter % 5 == 0) {
-    text += "Buzz";
-  } else {
-    text += counter;
-  }
-
-  document.getElementById("fbd").innerHTML += `
+    document.getElementById("fbd").innerHTML += `
       <div class="col">
-        <div id="square" class="row jc-center ai-center">${text}</div>
+        <div id="red" class="row jc-center ai-center square">${text}</div>
       </div>
     `;
+  } else if (counter % 3 == 0) {
+    text += "Fizz";
+    document.getElementById("fbd").innerHTML += `
+      <div class="col">
+        <div id="green" class="row jc-center ai-center square">${text}</div>
+      </div>
+    `;
+  } else if (counter % 5 == 0) {
+    text += "Buzz";
+    document.getElementById("fbd").innerHTML += `
+      <div class="col">
+        <div id="yellow" class="row jc-center ai-center square">${text}</div>
+      </div>
+    `;
+  } else {
+    text += counter;
+    document.getElementById("fbd").innerHTML += `
+      <div class="col">
+        <div id="blue" class="row jc-center ai-center square">${text}</div>
+      </div>
+    `;
+  }
 }
