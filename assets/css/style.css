@@ -6,11 +6,11 @@ html{font-family: sans-serif;}
 h1{color: #fff; text-align: center; font-size: 3em; margin: 0.5em 0;}
 .row{display: flex; flex-wrap: wrap;}
 .jc-center{justify-content: center;}
-.jc-around{justify-content: space-around;}
 .ai-center{align-items: center;}
-.p-3{padding: 1.5em;}
 
-.container{max-width: 70%; margin: 0 auto;}
-.col-2{max-width: 16.667%; flex-basis: 16.667%;}
+#square{width: 65px; height: 65px; background-color: #1389b2; font-size: 0.8rem;}
+
+.container{max-width: 45%; margin: 0 auto;}
+.col{max-width: calc(100% / 7); flex-basis: calc(100% / 7); margin-bottom: 1em;}
 
 #fbd{display: flex; flex-wrap: wrap;}

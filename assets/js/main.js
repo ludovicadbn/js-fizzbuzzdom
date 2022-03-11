@@ -12,8 +12,8 @@ for ( counter=1; counter<=100; counter++ ) {
   }
 
   document.getElementById("fbd").innerHTML += `
-      <div class="col-2 p-3 row jc-center ai-center">
-        <div">${text}</div>
+      <div class="col">
+        <div id="square" class="row jc-center ai-center">${text}</div>
       </div>
     `;
 }
