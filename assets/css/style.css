@@ -19,3 +19,30 @@ h1{color: #fff; text-align: center; font-size: 3em; margin: 0.5em 0;}
 #blue{background-color: #1389b2;}
 #green{background-color: #0bd6a1;}
 #red{background-color: #f0466f;}
+
+@media screen and (max-width: 25em){
+  .square{width: 60px; height: 60px; font-size: 0.8rem;}
+  .container{max-width: 90%;}
+  .col{max-width: 25%; flex-basis: 25%;}
+}
+
+@media screen and (min-width: 25.1em) and (max-width: 36em) {
+  .container{max-width: 90%;}
+  .col{max-width: 20%; flex-basis: 20%;}
+}
+
+@media screen and (min-width: 36.1em) and (max-width: 48em) {
+  .container{max-width: 90%;}
+  .col{max-width: calc(100% / 6); flex-basis: calc(100% / 6);}
+  .square{width: 70px; height: 70px; font-size: 0.8rem;}
+}
+
+@media screen and (min-width: 48.1em) and (max-width: 62em) {
+  .container{max-width: 75%;}
+  .square{width: 70px; height: 70px; font-size: 0.8rem;}
+}
+
+@media screen and (min-width: 62.1em) and (max-width: 75em) {
+  .container{max-width: 60%;}
+  .square{width: 70px; height: 70px; font-size: 0.8rem;}
+}
