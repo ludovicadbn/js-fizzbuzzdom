@@ -3,4 +3,24 @@ html{font-family: sans-serif;}
 
 .bg-turquoise{background-color: #083b4c;}
 
-h1{color: #fff; text-align: center;}
+h1{color: #fff; text-align: center; font-size: 3em; margin: 0.5em 0;}
+.row{display: flex; flex-wrap: wrap;}
+.jc-center{justify-content: center;}
+.ai-center{align-items: center;}
+
+.container{
+  max-width: 70%; 
+  margin: 0 auto; 
+  background-color: white; 
+}
+
+#fbd{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square{
+  width: 70px; 
+  height: 70px; 
+  background-color: #1389b2;
+}
