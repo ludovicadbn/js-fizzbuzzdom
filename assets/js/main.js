@@ -4,7 +4,11 @@
         <div>${counter}</div>
       </div>
     `;
+
+  console.log(counter);
 }*/
+
+// STAMPA SOLO IL 100 PER0' NELLA CONSOLE CI SONO TUTTI
 
 // ------------------------------------------------------
 
@@ -12,7 +16,7 @@
   let text = "";
   let counter = 1;
 
-  while (counter <= 100){
+  while (counter <= 99){
     counter += 1;
   }
 
@@ -31,11 +35,17 @@
         <div>${text}</div>
       </div>
     `;
-}*/
+
+  console.log(text);
+}
+
+fizzBuzzDom();*/
+
+// STAMPA SOLO L'ULTIMO BUZZ (100) MA IN CONSOLE NON APPAIONO GLI ALTRI NUMERI
 
 // --------------------------------------------------------------
 
-/*let counter = 1;
+/*let counter = 0;
 
 while (counter <= 100){
   document.getElementById("fbd").innerHTML = `
@@ -44,7 +54,11 @@ while (counter <= 100){
     </div>
   `;
   counter += 1;
+
+  console.log(counter);
 }*/
+
+// STAMPA SOLO IL 100 MA IN CONSOLE CI SONO TUTTI 
 
 // ---------------------------------------------------------------------
 
