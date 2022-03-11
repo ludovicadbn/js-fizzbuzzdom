@@ -7,6 +7,7 @@ h1{color: #fff; text-align: center; font-size: 3em; margin: 0.5em 0;}
 .row{display: flex; flex-wrap: wrap;}
 .jc-center{justify-content: center;}
 .ai-center{align-items: center;}
+.p-3{padding: 1.5em;}
 
 .container{
   max-width: 70%; 
